@@ -1,0 +1,73 @@
+.header{
+    background: $mainbg-color;
+    padding-top: 30px;
+    .header__container{
+        justify-content: space-between;
+        .header__logo{
+            display: flex;
+            align-items: center;
+            .header__name{
+                font-size: 36px;
+                line-height: 0.67;
+                text-align: left;
+                color: $header-color;
+            }
+        }
+        .header__menu{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            .menu__item{
+                font-size: 14px;
+                line-height: 1.71;
+                color: $header-color;
+            }
+            .menu__button{
+                width: 153px;
+                height: 35px;
+                border-radius: 17.5px;
+                color: $title-color;
+                background-color: $header-color;
+                border:none;
+            }
+        }
+        
+    }
+}
+
+.footer{
+    background: $title-color;
+    padding: 58px 0;
+    .footer__socials{
+        margin:0 auto;
+        margin-bottom: 30px;
+        i{
+            font-size: 18px;
+            line-height: 2;
+            color: $header-color;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+        i:last-of-type{
+            margin-right: 0px;
+        }
+        .fa-facebook-f:hover{
+            color:#3b5998;
+        }
+        .fa-twitter:hover{
+            color:#00aced;
+        }
+        .fa-dribbble:hover{
+            color: #ea4c89 ;
+        }
+        .fa-behance:hover{
+            color:#2c4eff;
+        }
+    }
+    .footer__copyright{
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: center;
+        color: $header-color;
+    }
+}

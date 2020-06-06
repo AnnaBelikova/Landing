@@ -1,0 +1,113 @@
+.banner{
+    padding:80px 0;
+    background: $mainbg-color;
+    position:relative;
+    .banner__info{
+        .banner__title{
+            font-size: 54px;
+            color: $header-color;
+            margin-bottom: 18px;
+            margin-top: 73px;
+            line-height: 1.1;
+        }
+        .banner__point, .banner__paragraph{
+            font-size: 14px;
+            color: $header-color;
+        }
+        .banner__paragraph{
+            margin-bottom: 18px;
+            line-height: 1.71;
+        }
+        .banner__item{
+            margin-bottom: 15px;
+            .fa-check-circle{
+                font-size: 16px;
+                text-align: left;
+                color: $header-color;
+                margin-right: 18px;
+            }
+            .banner__point{
+                display:inline-block;
+                line-height: 1;
+            }
+        }
+        .btn_wrapper{
+            width: 202px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.1);
+            padding:5px;
+            border-radius: 20px;
+            margin-top: 20px;
+            margin-bottom: 15vh;
+            .banner__button{
+                width: 192px;
+                height: 40px;
+                color: $title-color;
+                background-color: $header-color;
+                width: 192px;
+                border-radius: 20px;
+                box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+        }
+        
+    }
+    .banner__img{
+            right:0;
+            position:absolute;
+            width:51%;
+    }
+}
+.features{
+    padding-top:120px;
+    padding-bottom: 62px;
+    border-bottom: solid 2px #eeeeee;
+    .fearures__item{
+        display:flex;
+        justify-content: space-between;
+        margin-left: -15px;
+        margin-bottom: 58px;
+        margin-right: 27px;
+        &:nth-child(3n){
+            margin-right: -15px;
+        }
+        .features__icon{
+            width: 75px !important;
+            height: 75px;
+            border: solid 1px #eeeeee;
+            background-color: #f7fafc;
+            border-radius: 50%;
+            text-align: center;
+            margin-right: 25px;
+            position: relative;
+            i{
+                font-size: 24px;
+                color: $icon-color;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .features__info{
+            width:71%;
+            .features__title{
+                font-size: 24px;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                color: $title-color;
+                margin-bottom: 20px;
+            }
+            .features__text{
+                font-size: 14px;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 1.71;
+                color: $text-color;
+            }
+        }
+    }
+}
