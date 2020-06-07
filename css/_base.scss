@@ -34,7 +34,22 @@
         
     }
 }
-
+.section__title{
+    font-size: 36px;
+    line-height: 0.83;
+    text-align: center;
+    color: $title-color;
+    margin-bottom: 31px;
+}
+.section__paragraph{
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: $text-color;
+    margin-bottom: 80px;
+    margin-right:auto;
+    margin-left:auto;    
+}
 .footer{
     background: $title-color;
     padding: 58px 0;
