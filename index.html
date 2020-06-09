@@ -7,31 +7,51 @@
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>Giant</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="row header__container">
-                <div class="header__logo col-md-2">
-                    <img src="./images/Logo.png" alt="Logo" class="header__img"/>
-                    <span class="header__name dosis-bold">Giant</span>
+                <div class=" col-4 col-lg-2">
+                    <a href="/" class="header__logo">
+                        <img src="./images/Logo.png" alt="Logo" class="header__img"/>
+                        <span class="header__name dosis-bold">Giant</span>
+                    
+                    </a>
                 </div>
-                <nav class="header__menu col-md-5">
-                    <div class="menu__item roboto-regular">Home</div>
-                    <div class="menu__item roboto-regular">Features</div>
-                    <div class="menu__item roboto-regular">Pricing</div>
-                    <button class="menu__button roboto-medium">Download Now</button>
+                <nav class="header__menu col-7 col-lg-5">
+                    <div class="menu__item roboto-regular"><a href="/">Home</a></div>
+                    <div class="menu__item roboto-regular"><a href="#features">Features</a></div>
+                    <div class="menu__item roboto-regular"> <a href="#pricing">Pricing</a></div>
+                    <div class="btn_wrapper">
+                        <button class="menu__button roboto-medium">Download Now</button>
+                    </div>
                 </nav>
+                <div class="header__mobile col-2">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="header__burger" for="menu__toggle">
+                              <span></span>
+                        </label>
+                    <div class="collapse">
+                        <div class="menu__item roboto-regular"><a href="/">Home</a></div>
+                        <div class="menu__item roboto-regular"><a href="#features">Features</a></div>
+                        <div class="menu__item roboto-regular"> <a href="#pricing">Pricing</a></div>
+                        <div class="btn_wrapper">
+                            <button class="menu__button roboto-medium">Download Now</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
     <section class="banner">
-        <img class="banner__img" src="./images/iPhones3.png" alt="Iphones">
+        <img class="banner__img " src="./images/iPhones3.png" alt="Iphones">
         <div class="container">
             <div class="row">
-                <div class="banner__info col-md-6">
-                    <div class="banner__title dosis-bold">A Powerful & Unique App Landing Template</div>
+                <div class="banner__info col-md-10 col-lg-6">
+                    <div class="banner__title dosis-bold">A Powerful & Unique <br/> App Landing Template</div>
                     <div class="banner__text">
                         <div class="banner__paragraph roboto-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                         <div class="banner__items">
@@ -56,45 +76,45 @@
             </div>
         </div>
     </section>
-    <section class="features">
+    <section class="features" id="features">
         <div class="container">
             <div class="row">
-                <div class="fearures__item col-12 col-md-4">
+                <div class="fearures__item col-12 col-md-6 col-lg-4">
                     <div class="features__icon"><i class="fas fa-tags"></i></div>
                     <div class="features__info">
                         <div class="features__title dosis-medium">Sell any product online</div>
                         <div class="features__text roboto-light">Over 92% of computers are infected with Adware and spyware. Such software is</div>
                     </div>
                 </div>
-                <div class="fearures__item col-12 col-md-4">
+                <div class="fearures__item col-12 col-md-6 col-lg-4">
                     <div class="features__icon"><i class="fas fa-cog"></i></div>
                     <div class="features__info">
                         <div class="features__title dosis-medium">Very easy to customize</div>
                         <div class="features__text roboto-light">Many of us are so used to working on a computer desktop that when it comes </div>
                     </div>
                 </div>
-                <div class="fearures__item col-12 col-md-4">
+                <div class="fearures__item col-12 col-md-6 col-lg-4">
                     <div class="features__icon"><i class="fas fa-paint-brush"></i></div>
                     <div class="features__info">
                         <div class="features__title dosis-medium">Unlimited colors</div>
                         <div class="features__text roboto-light">Audio player software is used to play back sound recordings in one of the many </div>
                     </div>
                 </div>
-                 <div class="fearures__item col-12 col-md-4">
+                <div class="fearures__item col-12 col-md-6 col-lg-4">
                     <div class="features__icon"><i class="fas fa-fire-extinguisher"></i></div>
                     <div class="features__info">
                         <div class="features__title dosis-medium">Responsive, HTML5, CSS3</div>
                         <div class="features__text roboto-light">Computers have become ubiquitous in almost every facet of our lives. At work,</div>
                     </div>
                 </div>
-                <div class="fearures__item col-12 col-md-4">
+                <div class="fearures__item col-12 col-md-6 col-lg-4">
                     <div class="features__icon"><i class="fas fa-file-alt"></i></div>
                     <div class="features__info">
                         <div class="features__title dosis-medium">Designed to convert</div>
                         <div class="features__text roboto-light">If you are looking for a new way to promote your business that won’t cost </div>
                     </div>
                 </div>
-                <div class="fearures__item col-12 col-md-4">
+                <div class="fearures__item col-12 col-md-6 col-lg-4">
                     <div class="features__icon"><i class="far fa-life-ring"></i></div>
                     <div class="features__info">
                         <div class="features__title dosis-medium">With no boundaries</div>
@@ -102,14 +122,15 @@
                     </div>
                 </div>
             </div>
+            <hr/>
         </div>
     </section>
     <section class="do-not-leave">
-        <div class="container">
+        <div class="container ">
+            <div class="do-not-leave__img col-12">
+            </div>
             <div class="row do-not-leave__row">
-                <div class="do-not-leave__img col-md-5">
-                </div>
-                <div class="do-not-leave__info col-md-6 offset-md-1">
+                <div class="do-not-leave__info col-12 col-lg-6 offset-lg-6">
                     <div class="section__title dosis-bold">We don’t leave you stranded</div>
                     <div class="do-not-leave__text">
                         <div class="do-not-leave__paragraph roboto-light">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</div>
@@ -135,19 +156,34 @@
     </section>
     <section class="screenshots">
         <div class="container">
-            <div class="section__title dosis-medium">Take a look at our screenshots</div>
-            <div class="section__paragraph roboto-light col-md-8">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</div>
-            <div class="row">
-                <img src="./images/Portfolio 01.png" alt="screen shot" class="col-md-4">
-            </div>
+                <div class="section__title dosis-medium">Take a look at our screenshots</div>
+                <div class="section__paragraph roboto-light col-md-8">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</div>
+                <div id="carousel">
+                    <img src="./images/Portfolio 1.png" id="item-1" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <img src="./images/Portfolio 2.png" id="item-2" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <img src="./images/Portfolio 3.png" id="item-3" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <img src="./images/Portfolio 4.png" id="item-4" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <img src="./images/Portfolio 5.png" id="item-5" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <img src="./images/Portfolio 6.png" id="item-6" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <img src="./images/Portfolio 7.png" id="item-7" class="col-10 col-sm-8 col-md-6 col-lg-4"/>
+                    <div class="nav">
+                        <div class="arrow__wrap prevarr">
+                            <a href="#" id="prev"><i class="fas fa-long-arrow-alt-left"></i></a>
+                        </div> 
+                        <div class="arrow__wrap nextarr">
+                            <a href="#" id="next"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                   </div>
+
         </div>
+              
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="section__title dosis-medium">We've got the perfect package for you</div>
             <div class="section__paragraph roboto-light col-md-8">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</div>
             <div class="row">
-                <div class="pricing__item col-md-3">
+                <div class="pricing__item col-12 col-sm-6 col-lg-3">
                     <div class="pricing__bg">
                         <div class="pricing__name dosis-regular">Basic</div>
                         <div class="pricing__price dosis-medium">
@@ -160,8 +196,10 @@
                                     </linearGradient>
                                     </defs>
                                 </svg>    
+                            <div class="pricing__wrap">
+                                <span>12.0</span>
+                            </div>
                             
-                            <span>12.0</span>
                         </div>
                         <div class="pricing__points">
                             <div class="pricing__point roboto-light">One User</div>
@@ -175,7 +213,7 @@
                         </div>  
                     </div>
                 </div>
-                <div class="pricing__item col-md-3">
+                <div class="pricing__item col-12 col-sm-6 col-lg-3">
                     <div class="pricing__bg">
                         <div class="pricing__name dosis-regular">Standard</div>
                         <div class="pricing__price dosis-medium">
@@ -188,8 +226,9 @@
                                     </linearGradient>
                                     </defs>
                                 </svg>    
-                            
-                            <span>24.0</span>
+                            <div class="pricing__wrap">
+                                <span>24.0</span>
+                            </div>
                         </div>
                         <div class="pricing__points">
                             <div class="pricing__point roboto-light">Five User</div>
@@ -203,7 +242,7 @@
                         </div>  
                     </div>
                 </div>
-                <div class="pricing__item col-md-3">
+                <div class="pricing__item col-12 col-sm-6 col-lg-3">
                     <div class="pricing__bg">
                         <div class="pricing__name dosis-regular">Premium</div>
                         <div class="pricing__price dosis-medium">
@@ -216,8 +255,9 @@
                                     </linearGradient>
                                     </defs>
                                 </svg>    
-                            
-                            <span>250.0</span>
+                            <div class="pricing__wrap">
+                                <span>250.0</span>
+                            </div>
                         </div>
                         <div class="pricing__points">
                             <div class="pricing__point roboto-light">Twenty User</div>
@@ -231,7 +271,7 @@
                         </div>  
                     </div>
                 </div>
-                <div class="pricing__item col-md-3">
+                <div class="pricing__item col-12 col-sm-6 col-lg-3">
                     <div class="pricing__bg">
                         <div class="pricing__name dosis-regular">Enterprise</div>
                         <div class="pricing__price dosis-medium">
@@ -244,8 +284,9 @@
                                     </linearGradient>
                                     </defs>
                                 </svg>    
-                            
-                            <span>999.0</span>
+                            <div class="pricing__wrap">
+                                <span>999.0</span>
+                            </div>
                         </div>
                         <div class="pricing__points">
                             <div class="pricing__point roboto-light">Unlimited User</div>
@@ -263,7 +304,7 @@
         </div>
     </section>
     <section class="video">
-            <img class="video__img" src="./images/Image.png" alt="beach">
+            <div class="video__img"></div>
             <div class="video__play"><i class="fas fa-play"></i></div>
             <div class="video__frame">
                 <iframe class="video__iframe" ></iframe>
@@ -274,38 +315,40 @@
             <div class="section__title dosis-medium">What our customers are saying</div>
             <div class="section__paragraph roboto-light col-md-8">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</div>
             <div class="row testimonials__wrapper">
-                <div class="testimonials__item col-4">
-                    <div class="testimonials__bg">
-                        <div class="testimonials__text roboto-light">The JustLanded for WordPress theme is great, super easy to use and to customize and the support is just awesome: super fast and reliable.</div>
-                        <div class="testimonials__customer">
-                            <div id="one" class="testimonials__photo"></div>
-                            <div class="testimonials__info">
-                                <div class="testimonials__name dosis-regular">Alexandra Bullock</div>
-                                <div class="testimonials__company roboto-light">Apple Inc.</div>
+                <div class="owl-carousel col-8 offset-2 offset-lg-1 col-lg-10 offset-xl-0 col-xl-12">
+                    <div class="testimonials__item">
+                        <div class="testimonials__bg">
+                            <div class="testimonials__text roboto-light">The JustLanded for WordPress theme is great, super easy to use and to customize and the support is just awesome: super fast and reliable.</div>
+                            <div class="testimonials__customer">
+                                <div id="one" class="testimonials__photo"></div>
+                                <div class="testimonials__info">
+                                    <div class="testimonials__name dosis-regular">Alexandra Bullock</div>
+                                    <div class="testimonials__company roboto-light">Apple Inc.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="testimonials__item col-4">
-                    <div class="testimonials__bg">
-                        <div class="testimonials__text roboto-light">Very happy with the theme and incredibly easy to configure, well done! I cannot emphasize how awesome this theme and developer support are.</div>
-                        <div class="testimonials__customer">
-                            <div id="two" class="testimonials__photo"></div>
-                            <div class="testimonials__info">
-                                <div class="testimonials__name dosis-regular">Gary Sebastian</div>
-                                <div class="testimonials__company roboto-light">Apple Inc.</div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__bg">
+                            <div class="testimonials__text roboto-light">Very happy with the theme and incredibly easy to configure, well done! I cannot emphasize how awesome this theme and developer support are.</div>
+                            <div class="testimonials__customer">
+                                <div id="two" class="testimonials__photo"></div>
+                                <div class="testimonials__info">
+                                    <div class="testimonials__name dosis-regular">Gary Sebastian</div>
+                                    <div class="testimonials__company roboto-light">Apple Inc.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="testimonials__item col-4">
-                    <div class="testimonials__bg">
-                        <div class="testimonials__text roboto-light">Definitely a great theme and the support team are fantastic. Customer support is numero uno and ShapingRain have got this spot on. Cheers guys.</div>
-                        <div class="testimonials__customer">
-                            <div id="three" class="testimonials__photo"></div>
-                            <div class="testimonials__info">
-                                <div class="testimonials__name dosis-regular">Samantha Bilbau</div>
-                                <div class="testimonials__company roboto-light">Apple Inc.</div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__bg">
+                            <div class="testimonials__text roboto-light">Definitely a great theme and the support team are fantastic. Customer support is numero uno and ShapingRain have got this spot on. Cheers guys.</div>
+                            <div class="testimonials__customer">
+                                <div id="three" class="testimonials__photo"></div>
+                                <div class="testimonials__info">
+                                    <div class="testimonials__name dosis-regular">Samantha Bilbau</div>
+                                    <div class="testimonials__company roboto-light">Apple Inc.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -316,33 +359,33 @@
     <section class="download">
         <div class="container">
             <div class="section__title dosis-regular">Download Giant App Now</div>
-            <div class="row">
-                <div class="download__item col-12 col-md-4">
-                    <div class="download__bg">
+            <div class="row row__download">
+                <div class="download__item col-12 col-md-6 col-lg-4">
+                    <a href="#!" class="download__bg">
                         <div class="download__icon app"></div>
                         <div class="download__info">
                             <div class="download__action dosis-bold">Download</div>
                             <div class="download__text roboto-light">Download from app store</div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="download__item col-12 col-md-4">
-                    <div class="download__bg">
+                <div class="download__item col-12 col-md-6 col-lg-4">
+                    <a href="#!" class="download__bg">
                         <div class="download__icon android"></div>
                         <div class="download__info">
                             <div class="download__action dosis-bold">Download</div>
                             <div class="download__text roboto-light">Download from play store</div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="download__item col-12 col-md-4">
-                    <div class="download__bg">
+                <div class="download__item col-12 col-md-6 col-lg-4">
+                    <a href="#!" class="download__bg">
                         <div class="download__icon mic"></div>
                         <div class="download__info">
                             <div class="download__action dosis-bold">Download</div>
                             <div class="download__text roboto-light">Download from microsoft store</div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -362,9 +405,14 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery.waterwheelCarousel.js"></script>
+    
 </body>
 </html>
